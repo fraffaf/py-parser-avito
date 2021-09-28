@@ -1,7 +1,6 @@
 # Python avito parser 1.0
 
 import requests
-import ipdb
 
 proxy = {"http": "localhost:8080", "https": "localhost:8080"}
 
@@ -13,6 +12,7 @@ r = requests.get("https://ya.ru", proxies=proxy, verify=False)
 
 if r.ok:            # if r.status = 200
     print("ok")     # print("ok")
+#TEST GIT
 
 
 
